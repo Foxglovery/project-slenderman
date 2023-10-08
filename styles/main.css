@@ -75,6 +75,7 @@ h2 {
   text-align: center;
   padding: 10px;
   font-family: "Jim Nightshade", Arial, Helvetica, sans-serif;
+  height: auto;
   
   
 }
@@ -144,4 +145,12 @@ svg text {
 .topnav a.active {
   background-color: #04AA6D;
   color: white;
+}
+
+//RESPONSIVE DESIGN 
+@media (max-width: 600px) {
+  .column {
+      width: 100%;
+  }
+  .card
 }
